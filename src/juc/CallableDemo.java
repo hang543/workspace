@@ -19,6 +19,7 @@ class  MyThred implements Callable<Integer>{
     @Override
     public Integer call() throws Exception {
         System.out.println("********come call method");
+        System.out.println();
         return 1024;
     }
 }
