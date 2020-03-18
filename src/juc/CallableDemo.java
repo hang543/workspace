@@ -21,6 +21,7 @@ class  MyThred implements Callable<Integer>{
         System.out.println("********come call method");
         System.out.println("sss");
         System.out.println("新增内容");
+        System.out.println("嘿嘿嘿");
         return 1024;
     }
 }
